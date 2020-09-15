@@ -28,7 +28,7 @@ function setup() {
 	dustbin2 = new Dustbin(460,height-80,10,50);
 	dustbin3 = new Dustbin(380,height-80,10,50);
   paper = new Paper(100,100);
-  launcher = new Launcher(bird.body,{x:100,y:100});
+  launcher = new Launcher(paper.body,{x:100,y:100});
 
 	
 
