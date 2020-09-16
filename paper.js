@@ -1,13 +1,13 @@
 class Paper {
-    constructor(x, y, radius) {
+    constructor(x, y ) {
         var options = {
           'restitution':0.8,
           'friction':1.0,
           'density':0.3 
         }
-        this.body = Bodies.circle(x, y, radius, options);
+        this.body = Bodies.circle(x, y,40, options);
         this.image= loadImage("paper.png")
-        this.radius=radius
+        this.radius=40;
        World.add(world,this.body)
       }
       display(){
